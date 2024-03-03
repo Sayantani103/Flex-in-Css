@@ -1,0 +1,46 @@
+Q2. Explain the role of the following key properties in the Flexbox layout model
+- justify-content;
+- align-item;
+- flex-direction;
+- flex-wrap
+
+ans- justify-content:
+
+This property controls how the flex items are positioned along the main axis of the flex container.
+Values include:
+flex-start: Items are packed toward the start of the flex container.
+flex-end: Items are packed toward the end of the flex container.
+center: Items are centered along the main axis.
+space-between: Items are evenly distributed with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed with equal space around them.
+space-evenly: Items are evenly distributed with equal space around them, including before the first and after the last item.
+
+align-items:
+
+This property determines how flex items are aligned along the cross axis of the flex container.
+
+Values include:
+stretch: Default value. Items are stretched to fill the container.
+flex-start: Items are aligned to the start of the cross axis.
+flex-end: Items are aligned to the end of the cross axis.
+center: Items are centered along the cross axis.
+baseline: Items are aligned based on their baselines.
+
+flex-direction:
+
+This property defines the direction of the main axis in the flex container and the direction in which flex items are placed.
+Values include:
+row: Default value. Main axis runs along the inline direction.
+row-reverse: Main axis runs along the inline direction, but in the opposite direction.
+column: Main axis runs along the block direction.
+column-reverse: Main axis runs along the block direction, but in the opposite direction.
+
+flex-wrap:
+
+This property determines whether flex items are forced onto a single line or can wrap onto multiple lines.
+Values include:
+nowrap: Default value. All flex items are forced onto a single line.
+wrap: Flex items wrap onto multiple lines if needed.
+wrap-reverse: Flex items wrap onto multiple lines in reverse order if needed.
+
+These properties, when used together, provide powerful control over the layout and alignment of flex items within a flex container, allowing for flexible and responsive designs

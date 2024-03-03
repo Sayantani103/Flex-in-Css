@@ -1,0 +1,159 @@
+body{
+        height: 100%;
+        width: 100%;
+}
+.irctcpage{
+        display: flex;
+        border: 2px solid black;
+        height: min-content;
+        width: 80vw;
+        align-items:center;
+        justify-content:center;
+        margin-left: 10%;
+}
+
+.content{
+        width: 50rem;
+        height: 50%;
+}
+
+.bodyimg img{
+        height: 50rem;
+        width: 40rem;
+}
+
+header{
+        display: flex;
+}
+
+.headlogo{
+        display: flex;
+        height: min-content;
+}
+
+.navigation-container{
+        display: flex;
+        flex-direction:column;
+        gap: 0.25%;
+        height: min-content;
+}
+
+.navigation-container ul{
+        display: flex;
+        gap: 10px;
+        font-size: medium;
+}
+.navigation-container button{
+        border:1px solid lightgray;
+        background-color: transparent;
+        border-radius: 3px;
+        font-size: medium;
+ }
+.navigation-container .selected{
+        background-color:#FB792B;
+        border-color: #FB792B;
+        color: white;
+}
+li{
+        list-style:none;
+}
+
+.body{
+        margin-top: 10%;
+}
+
+#body_list1{
+        display: flex;
+        gap: 2%;
+        font-size: larger;
+        position: relative;
+        left: -5%;
+}
+.Safety{
+        color: lightgreen;
+}
+.Security{
+        color: orange;
+}
+.Punctuality{
+        color:blue
+}
+
+#body_list2{
+        display: flex;
+        gap: 5%;
+        position: relative;
+        left: -5%;
+       
+}
+
+.ticketlist{
+        border:1px solid rgb(202, 200, 200);
+        display: flex;
+        align-items: center;   
+        padding:0.5%;
+        
+}
+.blue{
+        background-color: #2f4676;
+        color: white;
+}
+
+.route1{
+        border: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        width: 70%;
+        margin-top: 10%;
+}
+
+.routelist select{
+        border: none;
+        color: gray;
+}
+
+.route{
+        display: flex;
+        align-items: center;
+        color: gray;
+}
+
+.mid{
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        font-size: x-large;
+}
+.routebold{
+        font-weight: bold;
+        font-size: large;
+        color: black;
+}
+.routesmall{
+        font-size: smaller;
+}
+
+.route2{
+        border: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        width: 70%;
+        margin-top: 1%;
+}
+.mid2 i{
+        position:relative ;
+        left:20%;
+}
+
+.srchbutton{
+     width: 70%;   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(123, 216, 123);
+     margin-top: 10%;
+     font-size: large;
+     color: white;
+     font-weight: bold;
+}

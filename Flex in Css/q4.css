@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 224, 219);
+}
+.mainbox{
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 80vh;
+    width: 80vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box{
+    margin: 2%;
+    height: 80%;
+    width: 50%;
+    padding: 3%;
+    box-sizing: border-box;
+    border-radius: 7%;
+}
+.box1{
+    background-color: white;
+
+}
+.box1 i{
+    color: rgba(30, 4, 49, 0.781);
+}
+.box2{
+    background-color:rgba(30, 4, 49, 0.781);
+    color: white;
+
+}
+.box3{
+    background-color: white;
+}
+
+button{
+background-color: #202842;
+color: white;
+border-radius: 24px;
+font-size: 18px;
+padding: 10px 35px;
+margin: 30px auto;
+border-color: transparent;
+margin-left: 11%;
+}
+
+.box2 button{
+background-color: white;
+color: #202842;
+}
+
+.features{
+    padding: 2%;
+}
+
+.headings{
+    margin-left: 2%;
+}
+
+.price{
+    margin-left: 0.5%;
+    padding: 3%;
+}
+.subheadings{
+    font-weight: lighter;
+    margin-left: 2.5%;
+}

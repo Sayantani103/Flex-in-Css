@@ -1,0 +1,12 @@
+Q1. Describe the main difference between the CSS Flexbox layout model and the CSS Grid layout model. when
+would you choose one over the another?
+
+ans- Flexbox: Flexbox is primarily a one-dimensional layout model, meaning it deals with layout in one direction at a time — either as a row or a column. It allows you to distribute space among items in a container along a single axis. Flexbox is great for laying out items within a container, especially when dealing with dynamic content or when you need to align items within a single row or column.
+
+Grid: CSS Grid, on the other hand, is a two-dimensional layout model, enabling you to create layouts with rows and columns simultaneously. It allows for precise control over both the rows and columns of the layout, as well as the alignment and positioning of items within those rows and columns. Grid is particularly useful for creating complex and grid-like layouts where items need to be placed in specific locations on the page.
+
+Choosing one over the other depends on the specific layout requirements of your project:
+
+Flexbox is ideal for arranging items within a single row or column, or when you need to align items along a single axis.
+Grid is more suitable for creating complex layouts with rows and columns, especially when you need precise control over the placement and alignment of items within those rows and columns.
+In many cases, you may even use both together, leveraging the strengths of each layout model where they best fit within your design.
